@@ -100,7 +100,7 @@
                 </select>
                 <br>
 
-                <label for="city">cidade</label>
+                <label for="city">Cidade</label>
                 <input id="city" type="text" name="userCity" id="userCity" autocomplete="address-level2" placeholder="Ex.: Fortaleza">
             </fieldset>
 
@@ -161,7 +161,16 @@
                 <textarea id="comment" name="userComment" placeholder="Digite aqui sua opinião..."></textarea>
             </fieldset>
             
+            <fieldset>
+                <legend>Confirmações</legend>
 
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+                <label for="userLgpdTerm">Eu aceito participar da pesquisa</label><br>
+                
+                <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+                <label for="getResult">Desejo receber o resultado por email</label><br>
+            </fieldset>
+            
             <button type="submit">Enviar</button>
 
         </form>
